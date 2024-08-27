@@ -1,0 +1,87 @@
+name: tic_tac_toe
+description: "Tic Tac Toe Game Example."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.2+6
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Plugins
+  
+  cloud_firestore: ^5.2.1
+  country_picker: ^2.0.26
+  cupertino_icons: ^1.0.6
+  firebase_auth: ^5.1.4
+  firebase_core: ^3.3.0
+  fluttermoji: ^1.0.2
+  flutter_moving_background: ^0.0.5
+  flutter_staggered_animations: ^1.1.1
+  get: ^4.6.6
+  google_mobile_ads: ^5.1.0
+  google_sign_in: ^6.2.1
+  icons_plus: ^5.0.0
+  loader_overlay: ^4.0.1
+  lottie: ^3.1.2
+  share_plus: ^9.0.0
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.1.7
+  yaml: ^3.1.1
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - env.yaml
+    - assets/anims/
+    - assets/fonts/
+    - assets/images/
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist/Urbanist-Black.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/Urbanist/Urbanist-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Urbanist/Urbanist-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Urbanist/Urbanist-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Urbanist/Urbanist-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Urbanist/Urbanist-ExtraLight.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-ExtraLightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Urbanist/Urbanist-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Urbanist/Urbanist-Light.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-LightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Urbanist/Urbanist-Medium.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-MediumItalic.ttf
+          style: italic
+        - asset: assets/fonts/Urbanist/Urbanist-Regular.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-SemiBold.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-SemiBoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Urbanist/Urbanist-Thin.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-ThinItalic.ttf
+          style: italic
+        - asset: assets/fonts/Urbanist/Urbanist-Italic.ttf
