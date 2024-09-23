@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA3PD9vBPnPamVBMA1KaYEZoMe7Y4FTdz4',
-    appId: '1:501587912663:web:d83a351ccb92a1d790cd92',
-    messagingSenderId: '501587912663',
-    projectId: 'tictactoe-7aaf1',
-    authDomain: 'tictactoe-7aaf1.firebaseapp.com',
-    storageBucket: 'tictactoe-7aaf1.appspot.com',
-    measurementId: 'G-1RZMR1KLDH',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
+    measurementId: '',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBHTjKtsti0OFnXw9gJFgeDEDY7OXa1KP4',
-    appId: '1:501587912663:android:8b18e9e6b5886a5a90cd92',
-    messagingSenderId: '501587912663',
-    projectId: 'tictactoe-7aaf1',
-    storageBucket: 'tictactoe-7aaf1.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 }
